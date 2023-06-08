@@ -1,0 +1,24 @@
+
+table {
+  border-collapse: collapse;
+  font-size: 1.6rem;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+}
+td,
+th {
+  border: 2px solid rgb(0,0,0);
+  padding: 10px 20px;
+}
+td {
+  text-align: center;
+}
+
+.third-column,
+.fifth-column {
+  background-color: lightgreen;
+}
+.sixth-column {
+  background-color: lightcoral;
+  border: 5px solid rgb(0,0,0);
+}

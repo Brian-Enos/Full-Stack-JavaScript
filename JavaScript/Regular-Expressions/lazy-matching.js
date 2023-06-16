@@ -3,7 +3,9 @@
 let myString = "titanic" ;
 
 let myGreedyRegex = /t[a-z]*i/gi;
-let myLazyRegex = /t[a-z]*?/gi ;
+let myLazyRegex = /t[a-z]*?/gi ; 
+
+//asterics mean zero or more occurences of any character
 
 
 let greedyMatch = myString.match(myGreedyRegex);
